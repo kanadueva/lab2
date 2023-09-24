@@ -1,0 +1,163 @@
+body {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    flex-wrap: wrap;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+}
+
+.card-1:active, .card-2:active, .card-3:active {
+    opacity: .8;
+}
+
+/* CARD-1 */
+.card-1 {
+    margin: 20px 0px;
+    width: 220px;
+    border-radius: 24px;
+    padding: 16px 32px;
+    background-color: #fff;
+    border: 1px solid #C2DEE8;
+    box-shadow: -5px -8px 10px 0px rgba(34, 60, 80, 0.2);
+}
+
+.card-1:hover {
+    box-shadow: -13px -17px 21px 8px rgba(34, 60, 80, 0.2);
+    transition: all .2s linear;
+}
+
+.card-1__text {
+    color: #ABCDD9;
+    cursor: default;
+}
+
+.card-1__title {
+    border-bottom: 3px solid #77B1C6;
+    margin-bottom: 24px;
+}
+
+.card-1__title h4 {
+    padding: 8px;
+    font-size: 24px;
+    color: #78B3C8;
+    font-weight: 600;
+}
+
+.card-2__text--title {
+    font-weight: 600;
+    font-size: 24px;
+    color: #78B3C8;
+}
+
+.card-1__button {
+    text-align: center;
+    margin-top: 24px;
+}
+
+.card-1__button button {
+    padding: 12px 32px;
+    border: none;
+    outline: none;
+    background-color: #C7DDE6;
+    color: #61A3BB;
+    border-radius: 2px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.card-1__button button:hover {
+    background-color: #aad6e7;
+    color: #4f9ebb;
+    transition: all .2s linear;
+}
+
+/* CARD-2 */
+
+.card-2 {
+    margin: 20px 0px;
+    box-shadow: -2px -5px 7px 0px rgba(34, 60, 80, 0.2);
+    width: 300px;
+    border: 2px solid #C2DEE8;
+    cursor: pointer;
+    height: 80%;
+}
+
+.card-2:hover {
+    box-shadow: -5px -8px 11px 8px rgba(34, 60, 80, 0.2);
+    transition: all .2s linear;
+}
+
+.card-2 img {
+    width: 300px;
+}
+
+.card-2__text {
+    padding: 16px;
+    color: #ABCDD9;
+}
+
+.card-2__text--words {
+    margin-top: 16px;
+}
+
+/* CARD-3 */
+.card-3 {
+    margin: 20px;
+    width: 700px;
+    display: flex;
+    border: 2px solid #C2DEE8;
+    box-shadow: 1px -5px 41px 3px rgba(34, 60, 80, 0.2);
+}
+
+.card-3__first-section img {
+    width: 310px;
+    height: 100%;
+}
+
+.card-3__second-section {
+    padding: 20px;
+}
+
+.card-3__second-section p {
+    color: #ABCDD9;
+    cursor: default;
+}
+
+.card-3__second-section h4 {
+    font-weight: 600;
+    margin-bottom: 16px;
+    font-size: 24px;
+    color: #78B3C8;
+    cursor: default;
+}
+
+.card-3__second-section--button {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.card-3__second-section button {
+    padding: 12px 32px;
+    border: none;
+    outline: none;
+    background-color: #C7DDE6;
+    color: #61A3BB;
+    border-radius: 2px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.card-3__second-section button:hover {
+    background-color: #aad6e7;
+    color: #4f9ebb;
+    transition: all .2s linear;
+}
+
+.card-3:hover {
+    box-shadow: 1px -5px 41px 3px rgba(34, 60, 80, 0.34);
+    transition: all .2s linear;
+}
